@@ -29,13 +29,6 @@
 		[xpcConnection invalidate];
 	}];*/
 	
-	CDUser *user = CDUser.new;
-	user.name = @"Local Test";
-	user.identifier = 1234;
-	NSData *archivedUser = [NSKeyedArchiver archivedDataWithRootObject:user];
-	CDUser *unarchivedUser = [NSKeyedUnarchiver unarchiveObjectWithData:archivedUser];
-	NSLog(@"user: %@", unarchivedUser);
-	
 	[userCreator userWithName:@"Aron Cedercrantz" identifier:30123 reply:^(CDUser *user) {
 		NSLog(@"Created a user on a XPC service: %@", user);
 		[xpcConnection invalidate];
