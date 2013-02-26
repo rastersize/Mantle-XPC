@@ -1,0 +1,3 @@
+[submodule "Vendor/Mantle"]
+	path = Vendor/Mantle
+	url = https://github.com/github/Mantle.git
