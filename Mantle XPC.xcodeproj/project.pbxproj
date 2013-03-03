@@ -703,6 +703,7 @@
 				9CA0F74216DCEFAB00D9D1A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CA0F75316DCEFC200D9D1A5 /* Build configuration list for PBXNativeTarget "Service" */ = {
 			isa = XCConfigurationList;
@@ -711,6 +712,7 @@
 				9CA0F75516DCEFC200D9D1A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
